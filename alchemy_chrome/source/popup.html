@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+#content {
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+button {
+    margin-top: 10px;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+#refresh {
+    display: none;
+}
+#tips {
+    display: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+    margin: 10px 0 0 5px;
+}
+</style>
+</head>
+<body>
+<textarea id="content"></textarea>
+<button id="submit_content">Submit</button>
+<p id="tips">Ctrl+A&nbsp;Select All&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+C&nbsp;复制</p>
+<button id="refresh">Refresh</button>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

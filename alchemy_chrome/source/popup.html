@@ -23,12 +23,47 @@ button {
     color: #666;
     margin: 10px 0 0 5px;
 }
+#resulttable{
+    display:none;
+    overflow:auto;
+    width:500px; /*暂时设置成500px 如果有的词太长会变成一列的形式*/
+}
+table{
+    border-collapse:collapse;
+}
+body{
+    background:#FFFFFF;
+}
+tr{
+    color: #4f6b72;
+    
+    font-weight:bold;
+}
+th{
+    text-align:left;
+    color: #3C517F;
+    background:#E0E1E3;
+    font-weight:bold;  
+}
+tr.odd
+{
+    background-color: #EBF2F7;
+}
+tr.even
+{
+    background-color: #F9F9F9;
+}
 </style>
 </head>
 <body>
 <textarea id="content"></textarea>
+<div id ="resulttable" style="overflow:auto">
+    <div style="float:left;"><table width="240" border="1" cellspacing="0"><th>类型</th><tbody id="tb1"></tbody></table></div>
+    <div style="float:right;"><table width="240" border="1" cellspacing="0"><th>词</th><tbody id="tb2"></tbody></table></div>
+    <div style="clear:both;"></div>
+</div>
 <button id="submit_content">Submit</button>
-<p id="tips">Ctrl+A&nbsp;Select All&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+C&nbsp;复制</p>
+<p id="tips">Tip:鼠标拖动选中单列&nbsp;&nbsp;&nbsp;&nbsp;Ctrl+C&nbsp;复制</p>
 <button id="refresh">Refresh</button>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="popup.js"></script>

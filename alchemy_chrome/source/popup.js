@@ -51,44 +51,34 @@ $(function(){
                     }
                     keywords = keywords.concat(result);
                     result = '';
-                    var tb1='';
-                    var tb2='';
+
                     if(i < times) {
                         get_keyword(i + 1);
                     } else {
                         keywords = keywords.unique();
+                        var if_start = true;
+                        var tmp = '';
                         for(key in keywords) {
                             if(keywords.hasOwnProperty(key)) {
-                                tb1 +="<tr><td>"+keywords[key][0]+"</td></tr>";
-                                tb2 +="<tr><td>"+keywords[key][1]+"</td></tr>";
-                               
+                                if(tmp!=keywords[key][0])//换下一组了
+                                {    
+                                    if(!if_start)//不是刚开始 所以需要先输出一个空白行
+                                    result+='\n';
+                                    result+=keywords[key][0]+':\n';
+                                }
+                                result+=keywords[key][1]+'\n';
+                                if_start = false;
+                                tmp=keywords[key][0];
                             }
                         }
                         
-                        $('#tb1').html(tb1);
-                        $('#tb2').html(tb2);
-                        $('#content').hide();
+                        $('#content').val(result).focus();
                         $('#submit_content').hide();
                         $('#resulttable').show();
                         $('#tips, #refresh').show();
                         $('#submit_content').prop('disabled', false);
 
-                        for(var j =0; j<$('#tb1').find('td').length; j++)
-                        {
-                            if(j&1)
-                            {
-                                $('#tb1').find('tr').eq(j).addClass('even');
-                                $('#tb2').find('tr').eq(j).addClass('even');
-                            }else
-                            {
-                                $('#tb1').find('tr').eq(j).addClass('odd');
-                                $('#tb2').find('tr').eq(j).addClass('odd');
-                            }
-                            if($('#tb1').find('td').eq(j).height()>$('#tb2').find('td').eq(j).height())
-                                $('#tb2').find('td').eq(j).height($('#tb1').find('td').eq(j).height());
-                            else if($('#tb1').find('td').eq(j).height()<$('#tb2').find('td').eq(j).height())
-                                $('#tb1').find('td').eq(j).height($('#tb2').find('td').eq(j).height());
-                        }    
+                          
                         
                     }
                 },
@@ -101,11 +91,9 @@ $(function(){
         get_keyword(1);
     });
     $('#refresh').on('click', function(){
-        $('#resulttable').hide();
-        
+         
         
         $('#content').val('');
-        $('#content').show();
         $('#content').focus();
         
         $('#submit_content').show();

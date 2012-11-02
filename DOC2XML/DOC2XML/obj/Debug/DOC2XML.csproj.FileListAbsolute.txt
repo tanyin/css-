@@ -1,0 +1,8 @@
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\bin\Debug\DOC2XML.exe
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\bin\Debug\DOC2XML.pdb
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\obj\Debug\DOC2XML.Form1.resources
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\obj\Debug\DOC2XML.Properties.Resources.resources
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\obj\Debug\DOC2XML.csproj.GenerateResource.Cache
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\obj\Debug\DOC2XML.exe
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\DOC2XML\DOC2XML\obj\Debug\DOC2XML.pdb

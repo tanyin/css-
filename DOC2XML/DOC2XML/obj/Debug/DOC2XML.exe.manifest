@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="DOC2XML.exe" version="1.0.0.0" type="win32" />
+  <file name="MDIVWCTL.DLL" asmv2:size="524696">
+    <hash xmlns="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1tzwCwPqk7j7Du1VIt+gkN+PZic=</dsig:DigestValue>
+    </hash>
+    <typelib tlbid="{a5ededf4-2bbc-45f3-822b-e60c278a1a79}" version="12.0" helpdir="" resourceid="0" flags="HASDISKIMAGE" />
+    <comClass clsid="{40942a6c-1520-4132-bdf8-bdc1f71f547b}" threadingModel="Apartment" tlbid="{a5ededf4-2bbc-45f3-822b-e60c278a1a79}" progid="MODI.Document.1" description="Document Class" />
+    <comClass clsid="{ef347a62-ba21-42e4-94a0-1c0a6d7fdfe7}" threadingModel="Apartment" tlbid="{a5ededf4-2bbc-45f3-822b-e60c278a1a79}" progid="MiDocViewer.MiDocView.1" />
+    <comClass clsid="{fa554db9-c806-46a9-aef8-b5af891a94f9}" threadingModel="Apartment" tlbid="{a5ededf4-2bbc-45f3-822b-e60c278a1a79}" progid="MiDocViewer.MiDocSearch.1" />
+  </file>
+</assembly>

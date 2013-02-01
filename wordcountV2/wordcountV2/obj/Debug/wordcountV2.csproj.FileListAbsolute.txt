@@ -1,0 +1,8 @@
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\obj\Debug\wordcountV2.Form1.resources
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\obj\Debug\wordcountV2.Properties.Resources.resources
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\obj\Debug\wordcountV2.csproj.GenerateResource.Cache
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\bin\Debug\wordcountV2.exe
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\bin\Debug\wordcountV2.pdb
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\obj\Debug\wordcountV2.exe
+C:\Documents and Settings\huguang\My Documents\Visual Studio 2008\Projects\wordcountV2\wordcountV2\obj\Debug\wordcountV2.pdb

@@ -7,6 +7,12 @@
 	短信猫通过odbc来跟其他数据库通信。
 	通过在odbc中添加系统dsn，然后选择mysql odbc 5.2 ANSI Driver来连接MYSQL。
 	在配置面板中的details中,将字符集设置为utf8.
+3. 	apache配置相关
+	http:conf：在该文件中的最后一行要改成相应的目录，把扩展模块打开LoadModule rewrite_module modules/mod_rewrite.so
+	F:\wamp\bin\apache\apache2.2.22\conf\vhosts\sms.conf 把该文件改成相应的目录
+4.	如果是新安装的wamp，应该重新设置my.ini
+	在[client]下添加default_character_set=utf8
+	在[mysqld]下添加character-set-server = utf8
 	
 常见问题
 	

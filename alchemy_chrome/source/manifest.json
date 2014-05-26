@@ -7,5 +7,6 @@
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyxyo4Ci8NcMceF99X1906fU64jB+kbzr7IDKC6D1++oLF+6Uywk/o958NppfydFgxU3oST0bzZSbdwCMsvS0963VWnsa1DEwUyi81Ip701vc+CK7yiB+IUbGpX3KNlo4XBBBtn4YlaSHnkRyKCxUCKyL+e+BcgUKgbgpkir6m7QIDAQAB",
    "name": "Alchemy",
    "version": "1.0",
+   "manifest_version": 2,
    "permissions": ["http://access.alchemyapi.com/"]
 }

@@ -1,0 +1,8 @@
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\bin\Debug\NewBaiduClick.exe
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\bin\Debug\NewBaiduClick.pdb
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\obj\Debug\NewBaiduClick.Form1.resources
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\obj\Debug\NewBaiduClick.Properties.Resources.resources
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\obj\Debug\NewBaiduClick.csproj.GenerateResource.Cache
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\obj\Debug\NewBaiduClick.exe
+C:\Users\tanyin\Documents\Visual Studio 2008\Projects\NewBaiduClick\NewBaiduClick\obj\Debug\NewBaiduClick.pdb
